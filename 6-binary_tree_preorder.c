@@ -2,7 +2,10 @@
 #include <stdio.h>
 #include "binary_trees.h"
 /**
- *
+ * binary_tree_preorder - this function goes throuh a binary using
+ * pre-order traversal
+ * @tree: is the targrt node
+ * @func: is the function porter to call for each node
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
